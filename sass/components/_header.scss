@@ -5,8 +5,7 @@
     background: var(--secondary-font);
 &__link {
     margin-right: 93px;}
-&__item--current {
-    color: #2196f3;}
+
 &__item {
     position: relative;
     font-weight: 500;
@@ -19,7 +18,11 @@
 &:hover,
 &:focus {
         color: var(--accent-txt);
-}}
+        }
+    }
+&__item--current {
+    color: #2196f3;
+}
 &__list {
     display: flex;
     align-items: center;}
@@ -72,14 +75,12 @@
 &__item__icon {
     margin-right: 10px;}
 }
-
 .nav__item {
     margin-right: 50px;
 &__item:last-child {
     margin: 0;
     }
 }
-
 .contact__list {
     display: flex;
     margin-left: auto;
